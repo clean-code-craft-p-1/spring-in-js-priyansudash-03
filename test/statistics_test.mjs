@@ -15,5 +15,8 @@ describe('Statistics', () => {
         // NAN (not-a-number)
         // Design the expect statement here.
         // Use https://www.w3schools.com/jsref/jsref_isnan.asp
+        expect(Number.isNaN(computedStats.average)).to.be.true;
+        expect(Number.isNaN(computedStats.min)).to.be.true;
+        expect(Number.isNaN(computedStats.max)).to.be.true;
     });
 });
